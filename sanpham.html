@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="sanpham.css">
+    <link rel="icon" href="https://pubcdn.ivymoda.com/ivy2/images/logo-icon.ico" type="image/png" sizes="16x16">
+    <script src="sanpham.js"></script>
+</head>
+<body>
+    <header></header>
+    <section>
+        <div class="container"style=" display: flex;flex-direction: row;">
+            <div class="product-left">
+                <div>
+                    <img class="img1" src="sanpham1.jpg" alt="">
+                </div>
+            </div>
+            <div class="product-right">
+                <div class="tensp">
+                    <h1 style="font-size: 34px;" >Áo thun Regular CASUAL Supima</h1>
+                </div>
+                <div class="price">
+                    <input type="number" value="450000" style="font-size: 20px;border: none;background-color: white;" disabled  >
+                </div>
+                <div class="mau">
+                    <p style="font-size: 20px;">Màu sắc: Ghi</p>
+                </div>
+                <div class="size" style="flex-direction: column;">
+                    <label>
+                        <input type="radio" name="size" value="s">
+                        <span class="text-uppercase">S</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size" value="m">
+                        <span class="text-uppercase">M</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="size" value="l">
+                        <span class="text-uppercase">L</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="size" value="xl">
+                        <span class="text-uppercase">XL</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="size" value="xxl">
+                        <span class="text-uppercase">XXL</span>
+                    </label>
+                </div>
+                <div class="num" style="flex-direction: row;display: flex;">
+                    <p style="margin-right: 10px;">Số lượng </p>
+                    <input onclick="xacdinhdau('+')" type="button" value="+" class="ip1">
+                    <input type="text" value="0" id="num1" disabled class="ip1"> 
+                    <input onclick="xacdinhdau('-')" type="button" value="-" class="ip1">
+                </div>
+                <br>
+                <div class="but" style="flex-direction: row; width: auto; height: auto;">
+                    <button style="font-size: 20px;" class="btn1">
+                        <a class="btn1" style="text-decoration: none;border: none;" href="giohang.html">Thêm vào giỏ hàng</a>
+                    </button>
+                    <button style="font-size: 20px;" class="btn">MUA HÀNG</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+</html>

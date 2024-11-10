@@ -1,0 +1,57 @@
+/* Bên trái sản phẩm */
+.product-left{
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+.img1{
+    width: 270px;
+    height: 400px;
+}
+/* Bên phải sản phẩm */
+.product-right{
+    width: 60%;
+    height: auto;
+    flex-direction: column;
+}
+.cl_size{
+    height: 40px;
+    width: 40px;
+}
+span.text-uppercase {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+  }
+.ip1{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: none;
+}
+/* BUTTON */
+.btn{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.btn1{
+    background-color: black;
+    width: 190px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
